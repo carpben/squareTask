@@ -1,0 +1,4 @@
+COLUMNS = 10 
+ROWS = 10
+COLOR_ODD = "red"
+COLOR_EVEN = "blue"
