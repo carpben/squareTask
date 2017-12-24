@@ -1,0 +1,28 @@
+body {
+   background-color: white;
+}
+.square {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: #aaa;
+   margin: 5px;
+}
+.clicked {
+   -webkit-animation: rotation 2s 0s linear;
+
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+.even.clicked{
+   background-color: blue;
+}
+.odd.clicked {
+   background-color: red;
+}
